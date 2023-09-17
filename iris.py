@@ -8,10 +8,10 @@ import logging
 from twilio.rest import Client
 import streamlit as st
 import math
+import time
 
 
 # logger = logging.getLogger(__name__)
-alarm = False
 mp_drawing = mp.solutions.drawing_utils
 mp_drawing_styles = mp.solutions.drawing_styles
 mp_face_mesh = mp.solutions.face_mesh
