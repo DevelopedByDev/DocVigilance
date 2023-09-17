@@ -17,7 +17,7 @@ pip install -r requirements.txt
 To run the DocVigilance app, execute the following command:
 
 ```bash
-streamlit run app.py
+streamlit run iris.py
 ```
 
 This will start a local web server and open the app in your default web browser. You can then interact with the app to monitor a doctor's alertness by detecting handshaking and eye fatigue.
